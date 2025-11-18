@@ -18,7 +18,7 @@ function RegistrationForm() {
     };
 
     const validatePhone = (phone) => {
-        return /^[6-9]\d{9}$/.test(phone); // Indian mobile number format
+        return /^[6-9]\d{9}$/.test(phone); 
     };
 
     const handleSubmit = (e) => {
